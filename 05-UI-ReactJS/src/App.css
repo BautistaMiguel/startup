@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+*{
+  box-sizing: border-box;
+}
+
+.App-header{
+  display: none;
+}
+ul{
+  list-style-type: none;
+  text-align: left;
+}
+
+ul button{
+  padding: .5% 3%;
+}
+
+.movieElement{
+  width: 100px
+}
+
+.container{
+  width: 50%;
+  margin:0 auto;
+}
+
+div .movieElement {
+    border: 1px solid gray;
+    padding: 5px;
+}
+.movieElement {
+    width: 20%;
+    display: inline-block;
+    text-align: left;
+}
+form{
+  text-align: left;
+  padding: 40px;
+}
+form input {
+    height: 30px;
+}
+input[type="time"] {
+  transform: translateY(-2px);
+}
